@@ -1,5 +1,5 @@
 #!name=聚合去广告
-#!desc=每日自动合并+安全校验 | 源 10 | MITM 28 | 脚本 7 | 2026-06-15 05:55:43 UTC
+#!desc=每日自动合并+安全校验 | 源 10 | MITM 28 | 脚本 7 | 2026-06-15 17:02:14 UTC
 #!category=广告拦截
 #!author=memoryttt (auto-merge, security-checked)
 
@@ -766,23 +766,17 @@ DOMAIN,tmfmazu-wangka.m.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,tmfmazu.m.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,tmfsdk.m.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,tmfsdktcpv4.m.qq.com,REJECT,extended-matching,pre-matching
-DOMAIN,tnc0-aliec2.zijieapi.com,REJECT,extended-matching,pre-matching
-DOMAIN,tnc0-alisc1.zijieapi.com,REJECT,extended-matching,pre-matching
 DOMAIN,tnc0-bjlgy.zijieapi.com,REJECT,extended-matching,pre-matching
 DOMAIN,tnc3-aliec1.toutiaoapi.com,REJECT,extended-matching,pre-matching
 DOMAIN,tnc3-aliec2.bytedance.com,REJECT,extended-matching,pre-matching
 DOMAIN,tnc3-aliec2.snssdk.com,REJECT,extended-matching,pre-matching
 DOMAIN,tnc3-aliec2.toutiaoapi.com,REJECT,extended-matching,pre-matching
-DOMAIN,tnc3-aliec2.zijieapi.com,REJECT,extended-matching,pre-matching
 DOMAIN,tnc3-alisc1.bytedance.com,REJECT,extended-matching,pre-matching
 DOMAIN,tnc3-alisc1.snssdk.com,REJECT,extended-matching,pre-matching
 DOMAIN,tnc3-alisc1.toutiaoapi.com,REJECT,extended-matching,pre-matching
-DOMAIN,tnc3-alisc1.zijieapi.com,REJECT,extended-matching,pre-matching
-DOMAIN,tnc3-alisc2.zijieapi.com,REJECT,extended-matching,pre-matching
 DOMAIN,tnc3-bjlgy.bytedance.com,REJECT,extended-matching,pre-matching
 DOMAIN,tnc3-bjlgy.snssdk.com,REJECT,extended-matching,pre-matching
 DOMAIN,tnc3-bjlgy.toutiaoapi.com,REJECT,extended-matching,pre-matching
-DOMAIN,tnc3-bjlgy.zijieapi.com,REJECT,extended-matching,pre-matching
 DOMAIN,toblog.ctobsnssdk.com,REJECT,extended-matching,pre-matching
 DOMAIN,tpa-hcdn.iqiyi.com,REJECT,extended-matching,pre-matching
 DOMAIN,tpc.googlesyndication-cn.com,REJECT,extended-matching,pre-matching
