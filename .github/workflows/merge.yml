@@ -41,18 +41,20 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add dist/merged.sgmodule dist/manifest.json baseline.json
-          if git diff --staged --quiet; then
-            echo "无变化，跳过提交"
-          else
-            git commit -m "chore: auto-merge $(date -u +%Y-%m-%dT%H:%MZ)"
-            # rebase + 重试，避免与并发提交竞态导致 non-fast-forward
-            for i in 1 2 3; do
-              git pull --rebase --autostash origin main && git push && exit 0
-              echo "push 第 $i 次失败，重试…"; sleep 3
-            done
-            echo "push 多次失败"; exit 1
-          fi
+          # 产物是可复现的生成文件，不做 merge/rebase（必冲突）；
+          # 直接把本次产物盖在远端最新之上：reset 到远端 tip 后重新提交并 push，失败则重试。
+          for i in 1 2 3; do
+            git fetch -q origin main
+            git reset -q --mixed origin/main
+            git add dist/merged.sgmodule dist/manifest.json baseline.json
+            if git diff --staged --quiet; then
+              echo "无变化，跳过提交"; exit 0
+            fi
+            git commit -q -m "chore: auto-merge $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push && exit 0
+            echo "push 第 $i 次失败（远端被并发推进），重试…"; sleep 3
+          done
+          echo "push 多次失败"; exit 1
 
       - name: 邮件告警（检测到供应链/安全风险 exit 2）
         if: steps.build.outputs.code == '2'
