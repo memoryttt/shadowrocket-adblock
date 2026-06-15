@@ -1,0 +1,65 @@
+{
+  "generated": "2026-06-15 05:41:50 UTC",
+  "sources_ok": 10,
+  "sources_total": 10,
+  "mitm_hosts": [
+    "us.l.qq.com",
+    "y.gtimg.cn",
+    "music.y.qq.com",
+    "m*.amap.com",
+    "optimus-ads.amap.com",
+    "amap-aos-info-nogw.amap.com",
+    "acs.m.taobao.com",
+    "guide-acs.m.taobao.com",
+    "poplayer.template.alibaba.com",
+    "api.m.jd.com",
+    "dns.jd.com",
+    "m.client.10010.com",
+    "m1.ad.10010.com",
+    "res.mall.10010.cn",
+    "grpc.biliapi.net",
+    "app.bilibili.com",
+    "api.bilibili.com",
+    "api.live.bilibili.com",
+    "line3-h5-mobile-api.biligame.com",
+    "res.xiaojukeji.com",
+    "common.diditaxi.com.cn",
+    "hd.xiaojukeji.com",
+    "freight.xiaojukeji.com",
+    "daijia.kuaidadi.com",
+    "ct.xiaojukeji.com",
+    "conf.diditaxi.com.cn",
+    "acs.m.goofish.com",
+    "g-acs.m.goofish.com"
+  ],
+  "scripts": [
+    {
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/myBlockAds.js",
+      "host": "raw.githubusercontent.com"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/jingdong/jingdong.js",
+      "host": "raw.githubusercontent.com"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/dist/bilibili.protobuf.request.js",
+      "host": "raw.githubusercontent.com"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/dist/bilibili.json.js",
+      "host": "raw.githubusercontent.com"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/dist/bilibili.protobuf.response.js",
+      "host": "raw.githubusercontent.com"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/didi/didiAds.js",
+      "host": "raw.githubusercontent.com"
+    },
+    {
+      "url": "https://klraw.pages.dev/kelv1n1n/script/refs/heads/main/js/goofish.js?token=209863",
+      "host": "klraw.pages.dev"
+    }
+  ]
+}
