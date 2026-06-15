@@ -1,3 +1,0 @@
-#!name=poison-test
-[MITM]
-hostname = %APPEND% *
