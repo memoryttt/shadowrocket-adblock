@@ -15,6 +15,3 @@ https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/pa
 https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partB/bilibili.sgmodule
 https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partD/DiDiChuxing.sgmodule
 https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partX/XianYu.sgmodule
-
-# === 临时投毒测试，验证后删除 ===
-https://raw.githubusercontent.com/memoryttt/shadowrocket-adblock/main/test/poison.sgmodule
