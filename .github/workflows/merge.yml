@@ -28,17 +28,50 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Merge modules
-        run: python3 merge.py
+      - name: Build + 安全校验
+        id: build
+        run: |
+          set +e
+          python3 merge.py
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+          exit 0
 
-      - name: Commit if changed
+      - name: 提交（仅安全通过 exit 0）
+        if: steps.build.outputs.code == '0'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add dist/merged.sgmodule
+          git add dist/merged.sgmodule dist/manifest.json baseline.json
           if git diff --staged --quiet; then
             echo "无变化，跳过提交"
           else
             git commit -m "chore: auto-merge $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi
+
+      - name: 邮件告警（检测到供应链/安全风险 exit 2）
+        if: steps.build.outputs.code == '2'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.MAIL_SERVER }}
+          server_port: ${{ secrets.MAIL_PORT }}
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: "⚠️ shadowrocket-adblock 检测到供应链风险，已停止更新"
+          to: cyg02032015@126.com
+          from: shadowrocket-adblock bot <${{ secrets.MAIL_USERNAME }}>
+          body: |
+            自动合并在安全校验阶段检测到风险，已【停止更新】并保留上一版良品（未发布被投毒内容）。
+
+            请人工核查上游模块/远程脚本是否被篡改：
+            ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+            详细风险清单见附件 security-report.txt。
+          attachments: security-report.txt
+
+      - name: 标红 job（任何非 0 退出）
+        if: steps.build.outputs.code != '0'
+        run: |
+          echo "merge.py 退出码=${{ steps.build.outputs.code }}（2=安全风险停更，1=运行错误）"
+          exit 1
