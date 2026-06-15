@@ -1,0 +1,17 @@
+# 去广告模块源（每行一个 URL，# 开头为注释）
+# 合并产物：dist/merged.sgmodule
+# 由 GitHub Actions 每日自动拉取重新合并
+
+# 秋风 AWAvenue：纯域名拦截（覆盖全 App 第三方广告 SDK），无 MITM
+https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Shadowrocket.module
+
+# fmz200 逐 App 模块（含 MITM 重写/脚本）
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partQ/QQMusic.sgmodule
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partG/AutoNavi.sgmodule
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partT/Taobao.sgmodule
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partJ/JD.com.sgmodule
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partZ/ChinaUnicom.sgmodule
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partM/Meituan.sgmodule
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partB/bilibili.sgmodule
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partD/DiDiChuxing.sgmodule
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partX/XianYu.sgmodule

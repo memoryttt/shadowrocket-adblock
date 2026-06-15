@@ -1,0 +1,44 @@
+name: merge-adblock
+
+on:
+  schedule:
+    # 每天 19:17 UTC（北京时间 03:17），避开整点 GitHub Actions 拥堵
+    - cron: "17 19 * * *"
+  workflow_dispatch: {}
+  push:
+    paths:
+      - merge.py
+      - sources.txt
+      - .github/workflows/merge.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: merge-adblock
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Merge modules
+        run: python3 merge.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dist/merged.sgmodule
+          if git diff --staged --quiet; then
+            echo "无变化，跳过提交"
+          else
+            git commit -m "chore: auto-merge $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
