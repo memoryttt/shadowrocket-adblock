@@ -1,7 +1,7 @@
 #!name=聚合去广告
-#!desc=GitHub Actions 每日自动合并 | 源 10 个 | MITM 域名 28 个 | 更新 2026-06-15 05:34:03 UTC
+#!desc=每日自动合并+安全校验 | 源 10 | MITM 28 | 脚本 7 | 2026-06-15 05:41:50 UTC
 #!category=广告拦截
-#!author=memoryttt (auto-merge)
+#!author=memoryttt (auto-merge, security-checked)
 
 [Rule]
 DOMAIN,1500020991.vodplayer.wxamedia.com,REJECT,extended-matching,pre-matching
