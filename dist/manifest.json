@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-24 20:55:54 UTC",
+  "generated": "2026-06-25 21:02:34 UTC",
   "sources_ok": 10,
   "sources_total": 10,
   "mitm_hosts": [
@@ -58,8 +58,8 @@
       "host": "raw.githubusercontent.com"
     },
     {
-      "url": "https://klraw.pages.dev/kelv1n1n/script/refs/heads/main/js/goofish.js?token=209863",
-      "host": "klraw.pages.dev"
+      "url": "https://raw.githubusercontent.com/ishowshu/qx/refs/heads/main/script/goofish.js",
+      "host": "raw.githubusercontent.com"
     }
   ]
 }

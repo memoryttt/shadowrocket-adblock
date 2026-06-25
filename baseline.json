@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24 20:55:54 UTC",
+  "updated": "2026-06-25 21:02:34 UTC",
   "source_hashes": {
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Shadowrocket.module": "138f96486b100a83b9d1d215e19ef1a56b963aaf0d11e52ee34ed86c98501c77",
     "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partQ/QQMusic.sgmodule": "22d9ae859892ace66b99b3f5e5f5f214db60f9657adc5158e1a15dbaf7297d3f",
@@ -10,7 +10,7 @@
     "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partM/Meituan.sgmodule": "3cea369e9ff0f5593344ecffdc67f0516964ba3a0d98863c2425aa8fb5685549",
     "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partB/bilibili.sgmodule": "c65cfb2b5b0fdf9342488d6bdda918120903fcb7ac6399ce61cbc20af5caf860",
     "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partD/DiDiChuxing.sgmodule": "5d0a483fa1f1d480713da81eb476609cbdfd7c51480edbace7a61024d7d92e40",
-    "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partX/XianYu.sgmodule": "40f52a7b5def5495be9b62e27b351ab1c212399838efb6882abd01621b0e3f21"
+    "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partX/XianYu.sgmodule": "40fb852def1a961a3c48b2ed0eb4f798a52f90a05a905c1b4f51435a8c20e0cf"
   },
   "scripts": {
     "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/myBlockAds.js": "4cf62100424886068a5470daecec319e93ccd034c647d79a9daaa72bbbc341bb",
@@ -19,7 +19,7 @@
     "https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/dist/bilibili.json.js": "7f5516b4c1669588cd03cb392d0b6dd275585a541fe1f3b6c1c2bec335a63c20",
     "https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/dist/bilibili.protobuf.response.js": "f2c248900e8c7b974323c342cc7efdcb2394116af64e4b57a1082dd7dccbfa08",
     "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/didi/didiAds.js": "c4f17a8ca8b27e15b7332460c83b5ba19aeded4c21e8f31beff8cefc54425ab7",
-    "https://klraw.pages.dev/kelv1n1n/script/refs/heads/main/js/goofish.js?token=209863": "f8a4745060e7e01541961791b3072f13f5e77297ce6db7b8c99d4e3dd95c3700"
+    "https://raw.githubusercontent.com/ishowshu/qx/refs/heads/main/script/goofish.js": "b580ea09bf5dbdbfb8eb44e44b015e6cb8d623c474b35280f74f522d40ebd8d1"
   },
   "mitm_hosts": [
     "us.l.qq.com",
