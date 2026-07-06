@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05 20:30:31 UTC",
+  "updated": "2026-07-06 21:01:07 UTC",
   "source_hashes": {
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Shadowrocket.module": "138f96486b100a83b9d1d215e19ef1a56b963aaf0d11e52ee34ed86c98501c77",
     "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partQ/QQMusic.sgmodule": "22d9ae859892ace66b99b3f5e5f5f214db60f9657adc5158e1a15dbaf7297d3f",
@@ -15,9 +15,9 @@
   "scripts": {
     "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/myBlockAds.js": "4cf62100424886068a5470daecec319e93ccd034c647d79a9daaa72bbbc341bb",
     "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/jingdong/jingdong.js": "3e7cc975f8985a4d2dbdbdefc405d0e3e6c9c07bf3c5361da1ecae206b6c04a1",
-    "https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/dist/bilibili.protobuf.request.js": "80c6088182f29739d3798a50d195467be6b527e3b9b4940ed8df4ca4b1bb15ac",
+    "https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/dist/bilibili.protobuf.request.js": "cfdc22f6ad8cfd435bb50ee25abb879e2e603772dabc27150216ea20c3984f63",
     "https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/dist/bilibili.json.js": "7f5516b4c1669588cd03cb392d0b6dd275585a541fe1f3b6c1c2bec335a63c20",
-    "https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/dist/bilibili.protobuf.response.js": "111922a323b18b3155543ccecc3be3c76d784b3416baae854fa691548cb7823c",
+    "https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/dist/bilibili.protobuf.response.js": "d31e4ce24de79c31eea61af94a03b568d3d7979bbd92424373d9109944b3b9f1",
     "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/didi/didiAds.js": "c4f17a8ca8b27e15b7332460c83b5ba19aeded4c21e8f31beff8cefc54425ab7",
     "https://raw.githubusercontent.com/ishowshu/qx/refs/heads/main/script/goofish.js": "b580ea09bf5dbdbfb8eb44e44b015e6cb8d623c474b35280f74f522d40ebd8d1"
   },
