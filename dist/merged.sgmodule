@@ -1,5 +1,5 @@
 #!name=聚合去广告
-#!desc=每日自动合并+安全校验 | 源 10 | MITM 28 | 脚本 7 | 2026-07-20 20:39:58 UTC
+#!desc=每日自动合并+安全校验 | 源 10 | MITM 28 | 脚本 7 | 2026-07-21 20:35:41 UTC
 #!category=广告拦截
 #!author=memoryttt (auto-merge, security-checked)
 
@@ -332,7 +332,6 @@ DOMAIN,datacollection.uve.weibo.com,REJECT,extended-matching,pre-matching
 DOMAIN,dc.sigmob.cn,REJECT,extended-matching,pre-matching
 DOMAIN,de.tynt.com,REJECT,extended-matching,pre-matching
 DOMAIN,diagnosis.ad.xiaomi.com,REJECT,extended-matching,pre-matching
-DOMAIN,dig.bdurl.net,REJECT,extended-matching,pre-matching
 DOMAIN,dlogs.bwton.com,REJECT,extended-matching,pre-matching
 DOMAIN,dm.toutiao.com,REJECT,extended-matching,pre-matching
 DOMAIN,domain.aishengji.com,REJECT,extended-matching,pre-matching
@@ -527,7 +526,6 @@ DOMAIN,mapi.m.jd.com,REJECT,extended-matching,pre-matching
 DOMAIN,masdkv6.3g.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,mazu.m.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,mbdlog.iqiyi.com,REJECT,extended-matching,pre-matching
-DOMAIN,mcs.zijieapi.com,REJECT,extended-matching,pre-matching
 DOMAIN,medproad.com,REJECT,extended-matching,pre-matching
 DOMAIN,metrics.data.hicloud.com,REJECT,extended-matching,pre-matching
 DOMAIN,metrics.icloud.com,REJECT,extended-matching,pre-matching
