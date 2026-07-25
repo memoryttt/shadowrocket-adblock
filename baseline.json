@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24 20:40:26 UTC",
+  "updated": "2026-07-25 20:15:11 UTC",
   "source_hashes": {
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Shadowrocket.module": "6e1af63a3a63f7df2cdf2abdf9a64a1c9cfa8eb5c884d804fb87c99cd8c23605",
     "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partQ/QQMusic.sgmodule": "22d9ae859892ace66b99b3f5e5f5f214db60f9657adc5158e1a15dbaf7297d3f",
@@ -15,9 +15,9 @@
   "scripts": {
     "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/myBlockAds.js": "4cf62100424886068a5470daecec319e93ccd034c647d79a9daaa72bbbc341bb",
     "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/jingdong/jingdong.js": "3e7cc975f8985a4d2dbdbdefc405d0e3e6c9c07bf3c5361da1ecae206b6c04a1",
-    "https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/dist/bilibili.protobuf.request.js": "3902dc936736125d18d3c3da1d5564832d5fe80bb4d2df041f51cf16d80c3da1",
-    "https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/dist/bilibili.json.js": "5d3e6ecdbdc301f55e68e08185a9d00a70e13d2c48858ff9c6f7e3ca303bcfa7",
-    "https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/dist/bilibili.protobuf.response.js": "e5989151c9e0a51a835a651543e903af287604a11d70368e043f3528939092ea",
+    "https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/dist/bilibili.protobuf.request.js": "c1102bb6767c8361ad1722c44577303ae1caf3d68f2f1cb9ebe15017fc14f8ac",
+    "https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/dist/bilibili.json.js": "32ba00da58c598c4419e7cc86f50acf0279a1c819fa6e3f2a851e6582001a5b8",
+    "https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/dist/bilibili.protobuf.response.js": "9852cb5befe36a7fc10c9504d67e1a25cce971e5fc584f7da870c7b1dfc4ac0e",
     "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/didi/didiAds.js": "c4f17a8ca8b27e15b7332460c83b5ba19aeded4c21e8f31beff8cefc54425ab7",
     "https://raw.githubusercontent.com/ishowshu/qx/refs/heads/main/script/goofish.js": "b580ea09bf5dbdbfb8eb44e44b015e6cb8d623c474b35280f74f522d40ebd8d1"
   },
