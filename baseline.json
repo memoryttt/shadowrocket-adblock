@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13 19:59:22 UTC",
+  "updated": "2026-08-14 19:55:20 UTC",
   "source_hashes": {
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Shadowrocket.module": "4c28e2b06eb196eb2463df7c5c85588ec1ee6ffe012726b8188a4de3c60e7168",
     "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partQ/QQMusic.sgmodule": "22d9ae859892ace66b99b3f5e5f5f214db60f9657adc5158e1a15dbaf7297d3f",
@@ -19,7 +19,7 @@
     "https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/dist/bilibili.json.js": "32ba00da58c598c4419e7cc86f50acf0279a1c819fa6e3f2a851e6582001a5b8",
     "https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/dist/bilibili.protobuf.response.js": "2b7c90ba7db98883382298d54711f810da43241e33cfc0d06b218476fea40132",
     "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/didi/didiAds.js": "c4f17a8ca8b27e15b7332460c83b5ba19aeded4c21e8f31beff8cefc54425ab7",
-    "https://raw.githubusercontent.com/ishowshu/qx/refs/heads/main/script/goofish.js": "b580ea09bf5dbdbfb8eb44e44b015e6cb8d623c474b35280f74f522d40ebd8d1"
+    "https://raw.githubusercontent.com/ishowshu/qx/refs/heads/main/script/goofish.js": "55a93da1229d21bdb16bd5745ea17d655718cf2affdb3261583692ffd75c1d8f"
   },
   "mitm_hosts": [
     "us.l.qq.com",
