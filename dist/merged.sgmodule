@@ -1,5 +1,5 @@
 #!name=聚合去广告
-#!desc=每日自动合并+安全校验 | 源 10 | MITM 28 | 脚本 7 | 2026-09-20 21:32:38 UTC
+#!desc=每日自动合并+安全校验 | 源 10 | MITM 28 | 脚本 7 | 2026-09-21 22:34:27 UTC
 #!category=广告拦截
 #!author=memoryttt (auto-merge, security-checked)
 
@@ -664,6 +664,8 @@ DOMAIN,pcm-img.zhls.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,pgdt.gtimg.cn,REJECT,extended-matching,pre-matching
 DOMAIN,pgdt.ugdtimg.com,REJECT,extended-matching,pre-matching
 DOMAIN,pglstatp-toutiao.com,REJECT,extended-matching,pre-matching
+DOMAIN,pica-a-display.diwodiwo.xyz,REJECT,extended-matching,pre-matching
+DOMAIN,pica-ad-api.diwodiwo.xyz,REJECT,extended-matching,pre-matching
 DOMAIN,pig.pupuapi.com,REJECT,extended-matching,pre-matching
 DOMAIN,pin.hpplay.cn,REJECT,extended-matching,pre-matching
 DOMAIN,pixon.ads-pixiv.net,REJECT,extended-matching,pre-matching

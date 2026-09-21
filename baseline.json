@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-20 21:32:38 UTC",
+  "updated": "2026-09-21 22:34:27 UTC",
   "source_hashes": {
-    "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Shadowrocket.module": "ffdb826a03c11f3d1edc1135e86bbc54e6e2a05986777c35eb5dc65e544970f7",
+    "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Shadowrocket.module": "b0e4ce5d9aeeeebf598e7b353f040dd70518a068c290574390a9015c20d14163",
     "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partQ/QQMusic.sgmodule": "22d9ae859892ace66b99b3f5e5f5f214db60f9657adc5158e1a15dbaf7297d3f",
     "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partG/AutoNavi.sgmodule": "79c65ca0ff9a010e43635d3f15007e098c9f655d44e32989ae2be3c48a694383",
     "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partT/Taobao.sgmodule": "15f461ce0737004a181669637dfa50711960373c70669d9ba1dd74ad7367993c",
@@ -19,7 +19,7 @@
     "https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/dist/bilibili.json.js": "32ba00da58c598c4419e7cc86f50acf0279a1c819fa6e3f2a851e6582001a5b8",
     "https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/dist/bilibili.protobuf.response.js": "9f9469785388d90956408f4206a31ac4b550b79019495a38fd0dc40ba3091832",
     "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/didi/didiAds.js": "c4f17a8ca8b27e15b7332460c83b5ba19aeded4c21e8f31beff8cefc54425ab7",
-    "https://raw.githubusercontent.com/ishowshu/qx/refs/heads/main/script/goofish.js": "55a93da1229d21bdb16bd5745ea17d655718cf2affdb3261583692ffd75c1d8f"
+    "https://raw.githubusercontent.com/ishowshu/qx/refs/heads/main/script/goofish.js": "5f17dc551da355b79d25d390ef88acafd0ce757f14740e7f0dcd6bd4398918a9"
   },
   "mitm_hosts": [
     "us.l.qq.com",
