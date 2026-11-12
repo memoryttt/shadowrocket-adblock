@@ -1,16 +1,16 @@
 {
-  "updated": "2026-11-11 00:01:31 UTC",
+  "updated": "2026-11-12 01:31:17 UTC",
   "source_hashes": {
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Shadowrocket.module": "8b749aa552c65b6da62df95d4d7193bcb3f8fb92ba43542896f185c692270122",
-    "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partQ/QQMusic.sgmodule": "22d9ae859892ace66b99b3f5e5f5f214db60f9657adc5158e1a15dbaf7297d3f",
-    "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partG/AutoNavi.sgmodule": "79c65ca0ff9a010e43635d3f15007e098c9f655d44e32989ae2be3c48a694383",
-    "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partT/Taobao.sgmodule": "15f461ce0737004a181669637dfa50711960373c70669d9ba1dd74ad7367993c",
-    "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partJ/JD.com.sgmodule": "fa55604eb4a7202fb75b41b6ca6bbfab19f5f2d8cf5f4e830242897778c95222",
-    "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partZ/ChinaUnicom.sgmodule": "b57ecebe682a8db5096615d63a5ab6755c7b16263c126c0b094ac4b8262d832f",
-    "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partM/Meituan.sgmodule": "3cea369e9ff0f5593344ecffdc67f0516964ba3a0d98863c2425aa8fb5685549",
-    "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partB/bilibili.sgmodule": "c65cfb2b5b0fdf9342488d6bdda918120903fcb7ac6399ce61cbc20af5caf860",
-    "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partD/DiDiChuxing.sgmodule": "5d0a483fa1f1d480713da81eb476609cbdfd7c51480edbace7a61024d7d92e40",
-    "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partX/XianYu.sgmodule": "40fb852def1a961a3c48b2ed0eb4f798a52f90a05a905c1b4f51435a8c20e0cf"
+    "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partQ/QQMusic.sgmodule": "16f0dadcb7c94ccc89f7975ee8a15b22bda1cbba9d10daacfeb816d000225e1c",
+    "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partG/AutoNavi.sgmodule": "a1047c2b8bb57b2743ded400f41035c816d30bb66493f098bd90e632019baef1",
+    "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partT/Taobao.sgmodule": "71b11aea4b62ca54ae3fbf232d7292daaba6c4e1d8a9723ef50c747831516f0d",
+    "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partJ/JD.com.sgmodule": "dd6a4157d2c9c85cc41e9c58ad9a8d533c026e1fbc4e21f9f16889a99f9e6bd8",
+    "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partZ/ChinaUnicom.sgmodule": "7cefbb6532ce0bfd68ad92324d77ecf77706bfe2eac01321475ab112f4f8ac2d",
+    "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partM/Meituan.sgmodule": "434ad615bb87ee022671da86575f6e83c71f0b0745f380537b5b1d634b28689d",
+    "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partB/bilibili.sgmodule": "32d10d545a9f862a9a0a19a805b6ee8e0f627bbaa71e8ac4d33aa35e5df6b085",
+    "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partD/DiDiChuxing.sgmodule": "6f8198e7a010f6734a0e0599918fde8b5e0d48674fcd5601874815484aa4c8b8",
+    "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Surge/module/split/partX/XianYu.sgmodule": "f134a2191a60a4ce2aae528cd3d2d73c2d2bb23ee33e20e2ef7023f560c56891"
   },
   "scripts": {
     "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/myBlockAds.js": "4cf62100424886068a5470daecec319e93ccd034c647d79a9daaa72bbbc341bb",
