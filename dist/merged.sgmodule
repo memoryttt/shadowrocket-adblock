@@ -1,22 +1,22 @@
 #!name=聚合去广告
-#!desc=每日自动合并+安全校验 | 源 10 | MITM 28 | 脚本 7 | 2026-11-21 23:47:12 UTC
+#!desc=每日自动合并+安全校验 | 源 10 | MITM 28 | 脚本 7 | 2026-11-23 00:17:58 UTC
 #!category=广告拦截
 #!author=memoryttt (auto-merge, security-checked)
 
 [Rule]
-IP-CIDR,111.20.26.186/32,REJECT,pre-matching
-IP-CIDR,112.84.130.73/32,REJECT,pre-matching
-IP-CIDR,116.142.251.100/32,REJECT,pre-matching
-IP-CIDR,116.177.251.215/32,REJECT,pre-matching
-IP-CIDR,120.77.173.114/32,REJECT,pre-matching
-IP-CIDR,123.56.23.22/32,REJECT,pre-matching
-IP-CIDR,14.29.101.160/32,REJECT,pre-matching
-IP-CIDR,14.29.101.168/32,REJECT,pre-matching
-IP-CIDR,14.29.101.169/32,REJECT,pre-matching
-IP-CIDR,182.254.116.116/32,REJECT,pre-matching
-IP-CIDR,203.205.137.89/32,REJECT,pre-matching
-IP-CIDR,218.77.192.51/32,REJECT,pre-matching
-IP-CIDR,38.190.225.166/32,REJECT,pre-matching
+IP-CIDR,111.20.26.186/32,REJECT,no-resolve,pre-matching
+IP-CIDR,112.84.130.73/32,REJECT,no-resolve,pre-matching
+IP-CIDR,116.142.251.100/32,REJECT,no-resolve,pre-matching
+IP-CIDR,116.177.251.215/32,REJECT,no-resolve,pre-matching
+IP-CIDR,120.77.173.114/32,REJECT,no-resolve,pre-matching
+IP-CIDR,123.56.23.22/32,REJECT,no-resolve,pre-matching
+IP-CIDR,14.29.101.160/32,REJECT,no-resolve,pre-matching
+IP-CIDR,14.29.101.168/32,REJECT,no-resolve,pre-matching
+IP-CIDR,14.29.101.169/32,REJECT,no-resolve,pre-matching
+IP-CIDR,182.254.116.116/32,REJECT,no-resolve,pre-matching
+IP-CIDR,203.205.137.89/32,REJECT,no-resolve,pre-matching
+IP-CIDR,218.77.192.51/32,REJECT,no-resolve,pre-matching
+IP-CIDR,38.190.225.166/32,REJECT,no-resolve,pre-matching
 DOMAIN,1500020991.vodplayer.wxamedia.com,REJECT,extended-matching,pre-matching
 DOMAIN,1500022744.vodplayer.wxamedia.com,REJECT,extended-matching,pre-matching
 DOMAIN,1500026601.vodplayer.wxamedia.com,REJECT,extended-matching,pre-matching
